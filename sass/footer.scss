@@ -1,0 +1,23 @@
+    footer {
+        background-image: url(../images/footer-bg.jpg);
+        width: 100%;
+        min-height: 802px;
+        text-align: center;
+        .footer-head {
+            color: #ffffff;
+            padding-top: 115px;
+        }
+        .line-white {
+            margin: 70px auto;
+        }
+        .social {
+            list-style: none;
+            .social-item {
+                display: inline-block;
+                padding-right: 25px;
+                a:hover {
+                    opacity: 0.5;
+                }
+            }
+        }
+    }

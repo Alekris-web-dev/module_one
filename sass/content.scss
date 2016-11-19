@@ -1,0 +1,90 @@
+//=============== Section Services Start ===============
+.services {
+    background-color: #ffffff;
+    text-align: center;
+    h3 {
+        padding-top: 115px;
+        padding-bottom: 75px;
+    }
+    .line-black {
+        margin-bottom: 80px;
+    }
+    h5 {
+        padding-bottom: 33px;
+    }
+    p {
+        margin-bottom: 58px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .services-item {
+        height: 149px;
+        line-height: 149px;
+        margin-bottom: 37px;
+        .icon {
+            vertical-align: middle;
+            margin: 0 auto;
+        }
+    }
+}
+
+//=============== Section Services And ===============
+//=============== Advertising Start ===============
+.advertising {
+    background-image: url(../images/section-2.jpg);
+    width: 100%;
+    min-height: 500px;
+    h2 {
+        padding-top: 165px;
+        text-align: center;
+    }
+    p {
+        color: #ffffff;
+        font-size: 22px;
+        font-weight: 100;
+        line-height: 28px;
+        padding-bottom: 64px;
+        text-align: left;
+    }
+    a {
+        font-family: 'Lato', sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        text-decoration: underline;
+        cursor: pointer;
+        &:hover {
+            color: $main-color;
+        }
+    }
+}
+
+//=============== Advertising And ===============
+//=============== Our Work Start ===============
+.our-work {
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 115px;
+    .line-black {
+        margin-top: 73px;
+        margin-bottom: 85px;
+    }
+    button {
+        font-family: 'Lato', sans-serif;
+        color: #222222;
+        font-size: 24px;
+        font-weight: 400;
+        text-transform: uppercase;
+        background-color: #ffffff;
+        border: 3px solid #222222;
+        width: 364px;
+        height: 54px;
+        margin-top: 71px;
+        margin-bottom: 80px;
+        &:hover {
+            border: none;
+            background-color: #07a9f4;
+        }
+    }
+}

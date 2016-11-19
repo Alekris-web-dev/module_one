@@ -10,17 +10,76 @@ body {
     padding: 0;
 }
 
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+    line-height: 60px;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-size: 44px;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    color: #222222;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+h5 {
+    font-family: 'Lato', sans-serif;
+    color: #222222;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    color: #222222;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
 .clearfix {
     clear: both;
     height: 0;
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1170px;
     min-width: 320px;
     width: 100%;
     height: auto;
     margin: 0 auto;
+}
+
+.line-black {
+    background-color: #222222;
+    width: 86px;
+    height: 2px;
+}
+.line-white {
+        background-color: #fffefe;
+        width: 86px;
+        height: 2px;
 }
 
 @import "variables.scss";

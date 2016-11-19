@@ -1,6 +1,71 @@
 header {
-    background-image: url(../images/bg.jpg);
+    background-image: url(../images/header_bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    width: 100%;
+    min-height: 900px;
+    .logo {
+        cursor: pointer;
+        transition: all .5s ease-in-out;
+        .elegant {
+            padding-top: 50px;
+            &:hover {
+                transform: scale(1.1);
+                transition: all .5s ease-in-out;
+            }
+        }
+    }
+    .head-menu {
+        list-style: none;
+        margin: 0;
+        margin-left: 50px;
+        padding-top: 50px;
+        padding-left: 0;
+        padding-bottom: 220px;
+        .menu-item {
+            display: inline-block;
+            padding-right: 36px;
+            a {
+                text-decoration: none;
+                font-family: 'Lato', sans-serif;
+                color: #fffffe;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 40px;
+                text-transform: uppercase;
+                cursor: pointer;
+                &:hover {
+                    color: $main-color;
+                }
+            }
+        }
+    }
+    .line-white {
+        margin: 44px auto;
+    }
+    .head-text {
+        color: #fffefe;
+        font-size: 22px;
+        width: 50%;
+        margin: 0 auto;
+    }
+    a:hover {
+        opacity: 0.7;
+    }
+    svg {
+        display: block;
+        margin: 0 auto;
+        margin-top: 250px;
+        margin-bottom: 46px;
+        .circular-button {
+            fill: #fff;
+            fill-rule: evenodd;
+            opacity: 0.5;
+            &:hover {
+                fill: $main-color;
+                opacity: 1;
+            }
+        }
+    }
 }
